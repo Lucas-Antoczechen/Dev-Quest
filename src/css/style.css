@@ -1,0 +1,88 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400px;
+    background: url(../images/bg-desktop.svg) no-repeat;
+    background-size: cover;
+    background-color: var(--primary-color);
+    min-height: 100vh;
+}
+
+main{
+    max-width: 1440px;
+    height: 100%;
+}
+.header{
+    margin-left: 50px;
+    margin-top: 70px;
+}
+
+.header img{
+    width: 200px;
+}
+
+section{
+    display: flex;
+}
+
+.section .illustration img{
+    width: 750px;
+    margin-left: 50px;
+    margin-top: 70px;
+}
+
+.section .description h1{
+    font-size: 4.5rem;
+    color: #fff;
+    margin-top: 100px;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.description p{
+    width: 500px;
+    font-size: 1.6rem;
+    color:#fff;
+    margin-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    line-height: 28px;
+}
+
+.section .description a{
+    color: var(--primary-color);
+    font-size: 1.6rem;
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 15px 50px;
+    margin-left: 45px; 
+    transition: 0.3s;   
+}
+
+.section .description a.btn:hover{
+    background-color: var(--second-color);
+    color:#fff;
+    box-shadow: 0 1px 1px #000;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 3rem;
+    margin: 15px;
+    margin-right: 80px;
+}
+
+.footer i{
+    padding: 8px;
+    margin-bottom: 10px;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.footer i:hover{
+    color: var(--second-color);
+}

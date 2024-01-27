@@ -4,12 +4,12 @@
         background: url(../images/bg-desktop.svg) no-repeat;
         background-size:  cover;
         background-color: var(--primary-color);
-        max-width: 768px;
+        max-width: 650px;
     }
 
     .header img{
         margin-top: 50px;
-        margin-left: 80px;
+        margin-left: 50px;
     }
     .section, .description{
         display: flex;
@@ -20,7 +20,7 @@
     
    
     .section .illustration img{
-        max-width: 550px;
+        max-width: 500px;
         padding-top: 70px;
     }
 
@@ -28,14 +28,14 @@
         margin: 0;
         padding: 20px;
         text-align: center;
-        width: 450px;
+        width: 400px;
         font-size: 3.5rem;
     }
 
     .section .description p{
         margin: 0;
         text-align: center;
-        width: 400px;
+        width: 350px;
         line-height: 30px;
     
     }
@@ -60,6 +60,7 @@
         background: url(../images/bg-mobile.svg) no-repeat;
         background-size: auto;
         background-color: var(--primary-color);
+        max-width: 325px;
     }
 
     header.header{
@@ -68,7 +69,7 @@
     }
     .header img{
         width: 100px;
-        margin-left: 18px;
+        margin-left: 0px;
         margin-top: 30px;
     }
 
@@ -83,6 +84,7 @@
     max-width: 300px;
     margin: 0px;
     padding: 15px;
+    
 }
     
 .section .description h1{
@@ -106,6 +108,7 @@
     text-align: center;
     margin:0;
     padding: 10px 70px;
+    font-size: 1.2rem;
 }
 
 footer{
